@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LB3</title>
+
+    <style>
+        .container-wrapper {
+            width: 100%;
+            padding-top: 25px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container-title {
+            margin-top: 10px;
+        } 
+
+        .info-container {
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        .info:first-child {
+            margin-top: 36px;
+        }
+
+        .info {
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-wrapper">
+        <h1 class="container-title">
+            Test ray tracing
+        </h1>
+        <canvas class="container-scene">
+        </canvas>
+    </div>
+
+    <div class="info-container">
+        <div class="info">
+            <label for="eln-1">Last name: </label>
+            <input type="text" name="employee-last-name-1" id="eln-1">
+            <label for="ehd-1">Hire date: </label>
+            <input type="date" name="employee-hire-date-1" id="ehd-1">
+        </div>
+
+        <div class="info">
+            <label for="eln-1">Last name: </label>
+            <input type="text" name="employee-last-name-1" id="eln-1">
+            <label for="ehd-2">Hire date: </label>
+            <input type="date" name="employee-hire-date-2" id="ehd-2">
+        </div>
+
+        <div class="info">
+            <label for="eln-1">Last name: </label>
+            <input type="text" name="employee-last-name-1" id="eln-1">
+            <label for="ehd-3">Hire date: </label>
+            <input type="date" name="employee-hire-date-3" id="ehd-3">
+        </div>
+
+        <div class="info">
+            <label for="eln-1">Last name: </label>
+            <input type="text" name="employee-last-name-1" id="eln-1">
+            <label for="ehd-4">Hire date: </label>
+            <input type="date" name="employee-hire-date-4" id="ehd-4">
+        </div>
+
+        <div class="info">
+            <label for="eln-1">Last name: </label>
+            <input type="text" name="employee-last-name-1" id="eln-1">
+            <label for="ehd-5">Hire date: </label>
+            <input type="date" name="employee-hire-date-5" id="ehd-5">
+        </div>
+
+        <div class="info">
+
+            <div class="result-container">
+                <p>Result: <span class="result">0</span></p>
+            </div>
+
+            <button id="calc-btn">
+                Calculate
+            </button>
+        </div>
+    </div>
+    <script src="utils.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
